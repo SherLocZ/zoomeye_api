@@ -16,8 +16,8 @@ class zoomeye():
         #获取所需要的token值
         url = "https://api.zoomeye.org/user/login"
         data = {
-            "username":"799843458@qq.com",
-            "password":"sher10ck"
+            "username":"YOUR_USER",
+            "password":"YOUR_PASS"
         }
         r = requests.post(url,data=json.dumps(data))
         # access_token = json.loads(r.content)['access_token']
